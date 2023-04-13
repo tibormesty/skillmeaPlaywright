@@ -1,0 +1,17 @@
+{
+  "name": "playwright_skillmea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allTests": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "allure-commandline": "^2.21.0",
+    "allure-playwright": "^2.1.0"
+  }
+}
