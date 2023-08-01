@@ -72,10 +72,10 @@ export default defineConfig({
     //   name: 'Mobile Chrome',
     //   use: { ...devices['Pixel 5'] },
     // },
-    {
-      name: 'iPhone',
-      use: { ...devices['iPhone 13 Pro Max landscape'] },
-    },
+    // {
+    //   name: 'iPhone',
+    //   use: { ...devices['iPhone 13 Pro Max landscape'] },
+    // },
 
     /* Test against branded browsers. */
     // {

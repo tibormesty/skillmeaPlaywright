@@ -33,7 +33,7 @@ test.describe('Login', () => {
   test('Cannot login with invalid username and valid password @slow', async ({ page, loginPage }) => {
     await loginPage.enterInvalidUsername();
     await loginPage.enterValidPassword();
-    // await loginPage.clickLoginButton();
+    await loginPage.clickLoginButton();
     await expect(loginPage.invalidCredentialsErrorMessage).toBeVisible();
   });
   
