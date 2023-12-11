@@ -1,0 +1,237 @@
+{
+  "cookies": [
+    {
+      "name": "_gid",
+      "value": "GA1.2.382555643.1701718832",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1701805232,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-109033876-1",
+      "value": "1",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1701718892,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.1088870261.1701718832",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1736278832.587229,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "uid",
+      "value": "fc76c9f9-0c62-4767-99b4-71b7619bd651",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1735414831.624436,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "i",
+      "value": "a004ada9-3c41-4abc-9a03-b5c10ce98280|1701718831",
+      "domain": ".openx.net",
+      "path": "/",
+      "expires": 1733254832.628728,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gads",
+      "value": "ID=fd0c52161a5dc782:T=1701718831:RT=1701718831:S=ALNI_MYiiLMwFsY_GsFIxjvt7sjc35CGDw",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1735414831,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__gpi",
+      "value": "UID=00000d035af790de:T=1701718831:RT=1701718831:S=ALNI_MYHUh_Dg-fKeq87YcmfP1Bt3gGZBw",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1735414831,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "3hlIKqVYj_CMjginjZUKK20JjXjP2QmVi6EilNSfdRM-1701718831-0-AV4P8Gy4wMaoVl+B3Katcs2KOc++BIiPw68/CNQKnqyfY79aDLDfdQjpbyrAqjDFCUpczJat/V7cbhQb7SjnkPA=",
+      "domain": ".mgid.com",
+      "path": "/",
+      "expires": 1701720632.715445,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_MVRXK93D28",
+      "value": "GS1.1.1701718832.1.0.1701718832.60.0.0",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1736278832.772747,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUlNDaSFA8hV0OgLDYziQT2lnL5dPVkcbrDAr8MO3FmkXoorELmOLCdtTkj5wnA",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1735414832.781107,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImFkbWluX3VzZXIiLCJwYXNzd29yZCI6IkFkbWluITEyMyIsImlhdCI6MTcwMTcxODgzM30.6kS5EeJ4AI90HmoqQErdYnQV2exZMYBMXrCjV-vkJnk",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expires",
+      "value": "2023-12-11T19%3A40%3A33.024Z",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userID",
+      "value": "23e8216a-c9ef-4939-a521-f3c1e8212673",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userName",
+      "value": "admin_user",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://demoqa.com",
+      "localStorage": [
+        {
+          "name": "totalCalls",
+          "value": "0"
+        },
+        {
+          "name": "totalCallsTimeout",
+          "value": "0"
+        },
+        {
+          "name": "_GESPSK-crwdcntrl.net",
+          "value": "[\"crwdcntrl.net\",null,1701718832335,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-33across.com",
+          "value": "[\"33across.com\",null,1701718832336,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-pubcid.org",
+          "value": "[\"pubcid.org\",null,1701718832478,null,null,null,null,null,0,[106]]"
+        },
+        {
+          "name": "__VASTUtil__",
+          "value": "__VASTUtil__"
+        },
+        {
+          "name": "lastSuccessfullAd",
+          "value": "0"
+        },
+        {
+          "name": "_cc_id_update_ts",
+          "value": "1701718832783"
+        },
+        {
+          "name": "panoramaId_expiry",
+          "value": "1701718831739"
+        },
+        {
+          "name": "panoramaId_expiry_exp",
+          "value": "1701718831739"
+        },
+        {
+          "name": "google_auto_fc_cmp_setting",
+          "value": "[1]"
+        },
+        {
+          "name": "_GESPSK-esp.criteo.com",
+          "value": "[\"esp.criteo.com\",null,1701718832336,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-rtbhouse",
+          "value": "[\"rtbhouse\",null,1701718832484,null,null,null,null,null,0,[106]]"
+        },
+        {
+          "name": "_GESPSK-openx",
+          "value": "[\"openx\",\"eyJpIjoib0FTdHFUeEJTcnlhQTdYQkRPbUNnQT09In0=\",1701718833085,null,null,null,null,null,0]"
+        },
+        {
+          "name": "_GESPSK-uidapi.com",
+          "value": "[\"uidapi.com\",null,1701718832335,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-id5-sync.com",
+          "value": "[\"id5-sync.com\",null,1701718832596,null,null,null,null,null,0,[106]]"
+        }
+      ]
+    },
+    {
+      "origin": "https://c1b6295f0e0f60a1e76ef31d3b8d66b1.safeframe.googlesyndication.com",
+      "localStorage": [
+        {
+          "name": "_mgPubmatic",
+          "value": "{\"time\":1701718834566,\"data\":\"{}\"}"
+        },
+        {
+          "name": "_mgPvid",
+          "value": "18c3658b8cda3046017"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::h",
+          "value": "1701718832489"
+        }
+      ]
+    }
+  ]
+}

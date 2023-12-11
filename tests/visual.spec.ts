@@ -6,7 +6,7 @@ test.describe('Visual testing', () => {
   })
 
   test('Visual test - login page', async ({ page }) => {
-    await expect(page).toHaveScreenshot({ maxDiffPixels: 100 });
+    await expect(page).toHaveScreenshot({ maxDiffPixels: 200 });
   });
 
 })

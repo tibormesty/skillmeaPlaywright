@@ -1,4 +1,10 @@
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+
+dotenv.config({
+  path: `./env/.env.${process.env.ENV}`
+});
+// require("dotenv").config({ path: `./env/.env.${process.env.ENV}` });
 
 /**
  * Read environment variables from file.
@@ -10,6 +16,7 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  // globalSetup: require.resolve('./global-setup.ts'),
   testDir: './tests',
   /* Maximum time one test can run for. */
   timeout: 30 * 1000,
@@ -35,6 +42,7 @@ export default defineConfig({
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
+    // storageState: 'loginAuth.json',
     baseURL: 'https://www.saucedemo.com/',
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
@@ -53,7 +61,12 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
     {
+      name: "setup",
+      testMatch: /.*\.setup\.*\.ts/, fullyParallel: false
+    },
+    {
       name: 'chromium',
+      // dependencies: ["setup"],
       use: { ...devices['Desktop Chrome'] },
     },
 
