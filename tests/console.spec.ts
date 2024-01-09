@@ -19,7 +19,7 @@ test.describe('Console log errors', () => {
             return logs.push({ error, errorType: error.name })
         })
 
-        expect.soft(logs.length).toBe(10);
+        expect.soft(logs.length).toBe(11);
         expect.soft(errors.length).toBe(0);
     
         

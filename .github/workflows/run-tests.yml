@@ -9,6 +9,10 @@ on:
 
 jobs:
     test:
+        strategy:
+          fail-fast: false
+          matrix:
+            shard: [1/4, 2/4, 3/4, 4/4]
         runs-on: ubuntu-latest
 
         steps:
@@ -27,7 +31,7 @@ jobs:
             run: npx playwright install --with-deps
 
           - name: Run Playwright tests
-            run: npx playwright test
+            run: npx playwright test --grep-invert@api --shard ${{ matrix.shard }}
           - uses: actions/upload-artifact@v3
             if: always()
             with:

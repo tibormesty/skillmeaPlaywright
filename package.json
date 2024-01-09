@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "allTests": "playwright test"
+    "allTests": "playwright test",
+    "test:api": "playwright test --config=api.config.ts --project=chromium --grep=@api"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "cross-env": "^7.0.3"
   },
   "dependencies": {
+    "@faker-js/faker": "^8.3.1",
     "dotenv": "^16.3.1"
   }
 }
