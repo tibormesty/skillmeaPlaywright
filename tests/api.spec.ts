@@ -79,7 +79,7 @@ test.describe('API Test', () => {
     })
 
 
-    test.only('PUT update booking details @api', async ({ request }) => {
+    test('PUT update booking details @api', async ({ request }) => {
 
 
         const response = await request.post("/auth", {
