@@ -9,14 +9,14 @@ test.describe('API Test', () => {
     const randomLastName = faker.person.lastName();
     const randomNumber = faker.number.int(50);
 
-    test('GET request', async ({ request }) => {
+    test('GET request @api', async ({ request }) => {
         const response = await request.get("/booking");
         expect(response.status()).toBe(200);
         const body = await response.json();
         console.log(JSON.stringify(body));
     })
 
-    test.skip('GET request with params @api', async ({ request }) => {
+    test('GET request with params @api', async ({ request }) => {
         const response = await request.get("/booking", {
             params: {
                 firstname: "Jane",
