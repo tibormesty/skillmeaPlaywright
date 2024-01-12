@@ -3,7 +3,7 @@ import { faker } from '@faker-js/faker';
 
 var token;
 
-test.describe('API Test', () => {
+test.describe('API Test @api', () => {
 
     const randomFirstName = faker.person.firstName();
     const randomLastName = faker.person.lastName();
